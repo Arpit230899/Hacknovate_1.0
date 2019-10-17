@@ -1,0 +1,2 @@
+# Hacknovate_1.0
+There is a website as well as a application based on a Smart Health Care System. In this, we made a website as well as a mobile application for the people who can save their hospital reports directly on the server and they don't need to carry those hard copy with them when they go for a Health Check-up in future. In this you only have to do sign-up and fill some basic details of yours and after that you can access from anywhere and anytime. You can also get the Hospital detail's of which you want to.
