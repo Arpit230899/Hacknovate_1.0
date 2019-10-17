@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MEDLIFE</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+
+<body background="medical.png">
+  <ul>
+    <li style ="font-size:60px; color: green; float:left; margin-top: 20px;"><img src="med.png" width="60" height="55" style="margin-right: 10px;"><b>Med-Life</b></li>
+    <li id="link"><a span style="font-size:20px;cursor:pointer; margin-top: 30px;" onclick="openNav()">&#9776;<b>Menu
+    </b></span></a></li>
+  </ul>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a style="font-size:20px; margin-top: 30px;"><b>About</b></a></li>
+    <a href="Hack5.html" style="font-size:20px; margin-top: 30px;"><b>Profile</b></a></li>
+    <a style="font-size:20px; margin-top: 30px;"><b>Setting</b></a></li>
+  </div>
+  <center>
+  <form>
+    <br><br><br><br><br><br><hr><br><br><br><br><br><br>
+      <div class="cont" style="width: 500px; margin-top: 20px;">
+        <label for="uname" style ="font-size:30px; color: green;"><b>ENTER PATIENT'S CONTACT NUMBER</b></label>
+        <input type="text" placeholder="Enter Number" name="uname" required>
+
+        <button type="submit">Submit</button>
+      </div>
+  </form>
+</center>
+<script>
+  function openNav()
+  {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav()
+  {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+</script>
+</body>
+</html>
